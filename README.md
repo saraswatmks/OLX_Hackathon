@@ -14,9 +14,9 @@ Following is my approach and few insights about the problem :
   * Cleaning: Removed stopwords, puntuations, spaces, converted to lowercase. All of this was done using regular expressions.
   * Failed Miserably in Model Training. The dataset was large enough that my laptop couldn't support the processing. 
 
-<br />
-Things I learned or  knew before which helped:
-  * In NLP problems, start your training with Naive Bayes rather than jumping on straight to xgboost.
+
+Things I learned or knew before which helped:
+  * In NLP problems, you can start your training with Naive Bayes rather than jumping on straight to xgboost.
   * In case of large data, don't hesitate in sampling your train data. But, make sure class distribution is maintained.
   * Keep your code pipeline ready. I had to write each line of code from scratch.
   * Always write your files once you finish with some computation which took long time, so that you don't have to go through it again.
